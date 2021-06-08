@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    string name = "John";
+    string lastName = "Smith";
+    string fullName = name + " " + lastName;
+    cout << fullName << endl;
     return 0;
 }
