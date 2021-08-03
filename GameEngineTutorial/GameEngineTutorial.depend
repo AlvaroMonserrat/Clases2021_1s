@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1626281972 source:/home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/GameEngineTutorial/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+

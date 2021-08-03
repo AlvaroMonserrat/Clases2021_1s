@@ -1,13 +1,19 @@
 #include <iostream>
+#include "ejemplos.h"
 
 using namespace std;
 
 //Declaración
 void mostrar_letras(string palabra);
+string concadenar(string texto_a, string texto_b);
 
 int main()
 {
-    mostrar_letras("C++ Programming");
+    string name = "This is an example!";
+
+    string emna = invertir_str(name);
+
+    cout <<  emna;
 
     return 0;
 }
@@ -34,4 +40,10 @@ void mostrar_letras(string palabra)
         cout << palabra[index] << endl;
         index++;
     }
+}
+
+string concadenar(string texto_a, string texto_b)
+{
+    string nuevo_texto = texto_a + " " + texto_b;
+    return nuevo_texto;
 }

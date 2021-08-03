@@ -1,4 +1,8 @@
 # depslib dependency file v1.0
-1624624301 source:/home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/Clase10/main.cpp
+1626814069 source:/home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/Clase10/main.cpp
+	<iostream>
+	"ejemplos.h"
+
+1626817033 /home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/Clase10/ejemplos.h
 	<iostream>
 

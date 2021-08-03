@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1627751714 source:/home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/MapOfVector/main.cpp
+	<iostream>
+	<vector>
+	<map>
+
