@@ -15,20 +15,21 @@ int main()
 {
     Rectangle m_button = {20, 10};
 
-    cout << sizeof(float) << endl;
+//    printf("direccion m_button %p\n", &m_button);
+//    printf("direccion m_button.width %p\n", &m_button.width);
+//    printf("direccion m_button.width %p\n", &m_button.height);
+//
+//    print_info_rectangle(m_button);
 
-    printf("direccion m_button %p\n", &m_button);
-    printf("direccion m_button.width %p\n", &m_button.width);
+    Rectangle* p_square = new Rectangle;
 
-    print_info_rectangle(m_button);
+    (*p_square).height = 100;
+    (*p_square).width = 50;
+    p_square->height=30;
 
-    double* accountDollar = new double;
+    printf("direccion p_square %p\n", p_square);
+    cout << p_square->height << endl;
 
-    *accountDollar = 511121;
-
-    cout << *accountDollar << endl;
-
-    delete accountDollar;
 
     return 0;
 }
