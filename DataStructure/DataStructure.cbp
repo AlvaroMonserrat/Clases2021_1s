@@ -34,6 +34,7 @@
 		</Compiler>
 		<Unit filename="linkedlist.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="stack.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
