@@ -1,7 +1,7 @@
 #ifndef STACK_INCLUDED
 #define STACK_INCLUDED
 
-#include <limits>
+//Stack usando Array
 
 struct Stack
 {
@@ -65,6 +65,21 @@ int pop_stack(Stack* s)
 
 }
 
+bool delete_stack(Stack** ref_s)
+{
+    if( (*ref_s) != nullptr)
+    {
+//        (*ref_s)->capacity = 0;
+//        (*ref_s)->top = -1;
+        delete[] (*ref_s)->data;
+        delete (*ref_s);
+
+        (*ref_s) = nullptr;
+
+        return true;
+    }
+    return false;
+}
 
 
 

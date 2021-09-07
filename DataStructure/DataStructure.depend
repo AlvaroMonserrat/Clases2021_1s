@@ -1,11 +1,10 @@
 # depslib dependency file v1.0
-1628605007 source:/home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/DataStructure/main.cpp
+1628707560 source:/home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/DataStructure/main.cpp
 	"linkedlist.h"
 	"stack.h"
 
 1628512097 /home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/DataStructure/linkedlist.h
 	<iostream>
 
-1628605037 /home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/DataStructure/stack.h
-	<limits>
+1628708012 /home/amonserrat/Documents/C++2021/Clases2021s1/Clases2021_1s/DataStructure/stack.h
 

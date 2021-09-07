@@ -14,6 +14,11 @@ int main()
     std::cout << pop_stack(pila) << std::endl;
     std::cout << peek_stack(pila) << std::endl;
 
+    printf("%p\n", pila);
+
+    delete_stack(&pila);
+
+    printf("%p\n", pila);
 
     return 0;
 }
